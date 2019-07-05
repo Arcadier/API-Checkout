@@ -51,7 +51,9 @@ Please follow the illustration below with your own information.
 
 **_URL_**
 
-In order to call the actual API, you have to use the URL https://{{your-marketplace}}.arcadier.io/api/v2/users/{{buyerID}}/carts. Respectively, this is where you will place your marketplace domain and buyer’s user ID. 
+In order to call the actual API, you have to use the URL 
+_https://{{your-marketplace}}.arcadier.io/api/v2/users/{{buyerID}}/carts_
+Respectively, this is where you will place your marketplace domain and buyer’s user ID. 
 
 -----------------------------------------------------------------------------------------------------------------------------
 
