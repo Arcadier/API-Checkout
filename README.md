@@ -219,6 +219,7 @@ The first few lines of the Body of your API call should follow the following str
  * Order
 	 * ID: The Order ID
  * Status: "Success" (read below)
+ Please follow the illustration below with your own information
  
  <img width="1251" alt="4body" src="https://user-images.githubusercontent.com/6611854/60698363-8411b180-9f21-11e9-9daa-02c115f906e2.png">
  
