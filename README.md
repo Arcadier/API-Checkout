@@ -150,8 +150,10 @@ The Body of your API call should follow the following structure:
  * PaymentStatus: “Paid” if the buyer has paid
 	 * “Acknowledged” if the buyer has ordered and the seller has seen the order
 	 * “Processing” if the payment is being processed
-	 * “Waiting for Payment” if the buyer has ordered and use cash on delivery payments
-	 * “Pending” if awaiting payment
+	 * “Waiting for Payment” if the buyer has not paid yet
+	 	 * No payment gateway (like Stripe)
+		 * Possibly COD (Cash on Delivery)
+	 * “Pending” if buyer has paid to the gateway but not yet received by seller
 	 * “Failed” if payment failed
 	 * “Refunded” if payment was refunded
  * Balance: Set to the amount of money you have NOT received yet for the item
