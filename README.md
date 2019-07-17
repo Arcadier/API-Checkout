@@ -1,6 +1,6 @@
 ![Arcadier](https://theme.zdassets.com/theme_assets/2008942/9566e69f67b1ee67fdfbcd79b1e580bdbbc98874.svg "Arcadier")
 
-## How to Use API calls to Checkout a Bespoke item
+# How to Use API calls to Checkout a Bespoke item
 
 This guide is intended to assist users on the generic process of using our API calls to Checkout a Bespoke item. Make sure to pay close attention to all minor details as all the information you give and receive can be sensitive. The slightest change in detail can change the entire order of your checkout. Please take note that this document will be using Postman to call APIs, therefore your method of calling APIs may be different. All body paragraphs sent for API calls will be in JSON.
 
